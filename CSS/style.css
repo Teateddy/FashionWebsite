@@ -1,0 +1,233 @@
+*{
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  background:rgb(230, 188, 184);
+  background-size: cover;
+   margin: 0;
+
+}
+.logo {
+  font-family: 'Alegreya SC', serif;
+  font-size:80px;
+  margin-bottom:0px;
+  padding:0;
+}
+.logo2 {
+  font-family: 'Pinyon Script', cursive;
+  font-size:32px;
+  margin-top: 0px;
+  padding:0;
+  line-height: 0px;
+  color:rgb(146, 137, 137);
+  font-weight: bold;
+}
+.container{
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  padding:20px 20px;
+  vertical-align: top;
+}
+  nav ul li {
+    list-style-type:none;
+    display:inline-block;
+    padding:10px;
+    margin:0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+  }
+nav ul li:hover {
+  background-color:  rgba(146, 137, 137, 0.5);
+  transition: 1.0s ease;
+}
+
+.info, .info ul {
+  display: inline-block;
+  float:right;
+  padding:0;
+  margin:0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.info ul li, .info2 ul li {
+  padding:6px;
+  list-style-type:none;
+  display:inline-block;
+  font-size:20px;
+  margin:0px;
+}
+
+.banner {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+}
+.main {
+  display: inline-block;
+  width: 75%;
+  padding:20px;
+  font-family: 'Playfair Display', serif;
+}
+.pic1, .pic2 {
+  display: block;
+  width: 90%;
+  height: 420px;}
+.pic3{
+  width:100%;
+}
+aside {
+  display: inline-block;
+  width: 25%;
+  float:right;
+  padding:10px;
+  font-family: 'Playfair Display', serif;
+
+}
+article {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  font-family: 'Playfair Display', serif;
+}
+.aboutus {
+  display: inline-block;
+}
+.aboutus h1 {
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: 'Pinyon Script', cursive;
+  color: rgb(146, 137, 137);
+}
+.par1 {
+  width: 40%;
+  display: inline-block;
+  text-align: justify;
+  font-family:'Playfair Display', serif;
+  padding: 15px;
+  border: solid 3px rgb(230, 188, 184);
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.pic4 {
+  display: block;
+  width: 45%;
+  height: 350px;
+  float: right;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+.pic5 {
+  display:inline-block;
+   width:45%;
+   margin: 50px;
+
+}
+.par2 {
+  display: block;
+  float: right;
+  width: 41%;
+  text-align: justify;
+  font-family:'Playfair Display', serif;
+  padding: 15px;
+  border: solid 3px rgb(230, 188, 184);
+  border-radius: 10px;
+  margin-right: 40px;
+  margin-top: 47px;
+}
+
+footer {
+  height:250px;
+  width:100%;
+  width:60%;
+  background-color: rgb(146, 137, 137);
+  margin: auto;
+  vertical-align: top;
+  margin-top: -20px;
+  padding: 20px 30px;
+  line-height: 7px;
+  font-family:'Playfair Display', serif;
+  color:white;
+}
+footer  h1, h2  {
+  font-family: 'Pinyon Script', cursive;
+}
+.form {
+  display: inline-block;
+  font-family:'Playfair Display', serif;
+  font-size: 20px;
+  color: rgb(146, 137, 137);
+  padding: 10px;
+  line-height: 35px;
+  float: right;
+  width:60%;
+
+}
+.contact {
+  width: 40%;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+
+}
+.contact h1 {
+  text-align: center;
+  font-family:'Pinyon Script', cursive;
+  font-size: 45px;
+font-weight: normal;
+color: rgb(146, 137, 137);
+}
+.submit {
+  background-color: rgb(146, 137, 137);
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-size:25px;
+  font-family:'Pinyon Script', cursive;
+}
+
+.image1 {
+  display:inline-block;
+  padding-left: 150px;
+}
+  .productItems {
+    display: inline-block;
+    font-weight: bold;
+    font-family:'Playfair Display', serif;
+    max-width:20%;
+  }
+  .productItems ul li {
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 40px;
+    padding-left: 10px;
+
+
+
+  }
+  .productItems ul li:hover {
+   background-color:  rgba(146, 137, 137, 0.6);
+   transition: 0.6s ease;}
+
+
+
+   .galleryImage {
+     display: inline-block;
+     width:33%;
+     float: right;
+     padding:10px;
+     transition: .5s ease;
+   }
+
+   .galleryImage:hover {
+     opacity:0.5;
+     transform: scale(1.1, 1.1);
+   }
